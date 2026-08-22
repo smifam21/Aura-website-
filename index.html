@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -214,6 +215,16 @@
       box-shadow: 0 20px 60px rgba(0,0,0,0.4);
     }
 
+    /* Bot image */
+    .bot-image {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 25px;
+      border-radius: 18px;
+      border: 1px solid rgba(166, 91, 255, 0.3);
+    }
+
     .bot-icon {
       font-size: 4rem;
       margin-bottom: 20px;
@@ -327,8 +338,13 @@
       .bot-card {
         padding: 30px;
       }
+
+      .bot-image {
+        margin-bottom: 20px;
+      }
     }
   </style>
+
 </head>
 
 <body>
@@ -339,156 +355,166 @@
   <nav>
     <a href="#" class="logo">AURA</a>
 
-    <ul class="nav-links">
-      <li><a href="#bots">Bots</a></li>
-      <li><a href="#future">Future</a></li>
-      <li><a href="#powered">About</a></li>
-    </ul>
+```
+<ul class="nav-links">
+  <li><a href="#bots">Bots</a></li>
+  <li><a href="#future">Future</a></li>
+  <li><a href="#powered">About</a></li>
+</ul>
+```
+
   </nav>
 
-
   <!-- HERO -->
+
   <section class="hero">
 
-    <div class="badge">⚡ THE AURA ECOSYSTEM</div>
+```
+<div class="badge">⚡ THE AURA ECOSYSTEM</div>
 
-    <h1>AURA</h1>
+<h1>AURA</h1>
 
-    <h2>Power Your Discord Server.</h2>
+<h2>Power Your Discord Server.</h2>
 
-    <p>
-      Powerful Discord bots built to protect, manage,
-      entertain, and upgrade your community.
-    </p>
+<p>
+  Powerful Discord bots built to protect, manage,
+  entertain, and upgrade your community.
+</p>
 
-    <div class="buttons">
-      <a href="#bots" class="button primary">
-        Explore Bots ⚡
-      </a>
+<div class="buttons">
+  <a href="#bots" class="button primary">
+    Explore Bots ⚡
+  </a>
 
-      <a href="#powered" class="button secondary">
-        Discover AURA
-      </a>
-    </div>
+  <a href="#powered" class="button secondary">
+    Discover AURA
+  </a>
+</div>
+```
 
   </section>
-
 
   <!-- BOTS -->
+
   <section id="bots">
 
-    <h2 class="section-title">Meet The Bots</h2>
+```
+<h2 class="section-title">Meet The Bots</h2>
 
-    <p class="section-subtitle">
-      Every Aura bot has its own purpose. Together,
-      they power your community.
-    </p>
+<p class="section-subtitle">
+  Every Aura bot has its own purpose. Together,
+  they power your community.
+</p>
 
-    <div class="bots">
+<div class="bots">
 
-      <!-- AuraGuard -->
-      <div class="bot-card">
+  <!-- AuraGuard -->
+  <div class="bot-card">
 
-        <div class="bot-icon">🛡️</div>
+    <img src="IMG_2828.png" alt="AuraGuard" class="bot-image">
 
-        <h3>AuraGuard</h3>
+    <div class="bot-icon">🛡️</div>
 
-        <div class="tagline">
-          Protect. Manage. Dominate.
-        </div>
+    <h3>AuraGuard</h3>
 
-        <p style="color:#93899f; line-height:1.6;">
-          Your all-in-one Discord management and
-          protection bot.
-        </p>
-
-        <ul class="features">
-          <li>🎟️ Advanced Ticket System</li>
-          <li>🎉 Powerful Giveaways</li>
-          <li>👋 Welcome & Leave Messages</li>
-          <li>🛡️ Moderation Tools</li>
-          <li>📋 Server Logging</li>
-          <li>💾 Server Backups</li>
-        </ul>
-
-      </div>
-
-
-      <!-- Aura Coinflip -->
-      <div class="bot-card">
-
-        <div class="bot-icon">🪙</div>
-
-        <h3>Aura Coinflip</h3>
-
-        <div class="tagline">
-          Flip. Compete. Win.
-        </div>
-
-        <p style="color:#93899f; line-height:1.6;">
-          A competitive Discord game bot built around
-          coinflips, streaks, and competition.
-        </p>
-
-        <ul class="features">
-          <li>🪙 Coinflip Games</li>
-          <li>🔥 Win Streaks</li>
-          <li>🏆 Leaderboards</li>
-          <li>📊 Player Stats</li>
-          <li>⚡ Fast Commands</li>
-          <li>🚀 More Features Coming</li>
-        </ul>
-
-      </div>
-
+    <div class="tagline">
+      Protect. Manage. Dominate.
     </div>
 
-  </section>
+    <p style="color:#93899f; line-height:1.6;">
+      Your all-in-one Discord management and
+      protection bot.
+    </p>
 
+    <ul class="features">
+      <li>🎟️ Advanced Ticket System</li>
+      <li>🎉 Powerful Giveaways</li>
+      <li>👋 Welcome & Leave Messages</li>
+      <li>🛡️ Moderation Tools</li>
+      <li>📋 Server Logging</li>
+      <li>💾 Server Backups</li>
+    </ul>
+
+  </div>
+
+  <!-- Aura Coinflip -->
+  <div class="bot-card">
+
+    <div class="bot-icon">🪙</div>
+
+    <h3>Aura Coinflip</h3>
+
+    <div class="tagline">
+      Flip. Compete. Win.
+    </div>
+
+    <p style="color:#93899f; line-height:1.6;">
+      A competitive Discord game bot built around
+      coinflips, streaks, and competition.
+    </p>
+
+    <ul class="features">
+      <li>🪙 Coinflip Games</li>
+      <li>🔥 Win Streaks</li>
+      <li>🏆 Leaderboards</li>
+      <li>📊 Player Stats</li>
+      <li>⚡ Fast Commands</li>
+      <li>🚀 More Features Coming</li>
+    </ul>
+
+  </div>
+
+</div>
+```
+
+  </section>
 
   <!-- FUTURE -->
+
   <section id="future">
 
-    <h2 class="section-title">The Future of Aura</h2>
+```
+<h2 class="section-title">The Future of Aura</h2>
 
-    <p class="section-subtitle">
-      Aura is just getting started.
-    </p>
+<p class="section-subtitle">
+  Aura is just getting started.
+</p>
 
-    <div class="future">
+<div class="future">
 
-      <div class="icon">🤖</div>
+  <div class="icon">🤖</div>
 
-      <h3>More Bots Coming Soon</h3>
+  <h3>More Bots Coming Soon</h3>
 
-      <p>
-        New tools. New systems. New ways to power
-        your Discord server.
-      </p>
+  <p>
+    New tools. New systems. New ways to power
+    your Discord server.
+  </p>
 
-    </div>
+</div>
+```
 
   </section>
-
 
   <!-- POWERED BY AURA -->
+
   <section class="powered" id="powered">
 
-    <h2>
-      POWERED BY<br>
-      <span>AURA ⚡</span>
-    </h2>
+```
+<h2>
+  POWERED BY<br>
+  <span>AURA ⚡</span>
+</h2>
 
-    <p>
-      Build your server. Power your community.
-    </p>
+<p>
+  Build your server. Power your community.
+</p>
+```
 
   </section>
-
 
   <footer>
     © 2026 AURA • Powered by Aura ⚡
-    
   </footer>
 
 </body>
